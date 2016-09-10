@@ -1,0 +1,45 @@
+body{
+    background-color:darkslategray;
+    align-content: center;
+    
+}
+.login{
+    vertical-align:middle;
+    width: fit-content;
+    background-color: cadetblue;
+    padding: 50px;
+    align-content: center; /*Alineacion cuando se crea una nueva fila o columna*/
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    
+}
+#user{
+    width: 100px;
+}
+#title{
+
+    color: white;
+    font-size: 5em;
+}
+
+/* The animation code */
+@keyframes example {
+    0%   {background-color: yellow; left:200px; top:0px;}
+    99%   {background-color: red; left:200px; top:500px;}
+    100% {content:url("http://publicdomainvectors.org/photos/1270762888.png"); left:200px; top:500px;}
+}
+
+/* The element to apply the animation to */
+#objeto {
+    top: -300px;
+    left: 200px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color:yellow;
+    animation-name: example;
+    animation-duration: 4s;
+    border-radius: 100px;
+}
+
